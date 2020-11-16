@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(cors());
+//app.use(bodyParser.urlencoded({extended: false}));
+//app.use(cors());
 //app.get("/", (req, res) => {
 //res.json({ message: "API Working" });
 //});
@@ -30,16 +30,16 @@ app.use("/api/merchant",merchantRoutes);
 /*merchant Routes */
 app.use("/api/user",userRoutes);
 
-app.use((req, res, next) => {
-  res.status(404).json({
-    errorKey: 'API_NOT_FOUND',
-    message: 'No such API exist',
-  });
-});
+//app.use((req, res, next) => {
+  //res.status(404).json({
+   // errorKey: 'API_NOT_FOUND',
+    //message: 'No such API exist',
+  //});
+//});
 
 // server static assets in  production
 
-if(process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "production") {
   // set static folder
   app.use(express.static('client/build'))
 
