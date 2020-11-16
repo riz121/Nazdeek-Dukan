@@ -6,6 +6,7 @@ const authRoutes = require("./modules/auth/auth.route")
 const adminRoutes= require("./modules/admin/admin.route")
 const merchantRoutes= require("./modules/merchant/merchant.route")
 const userRoutes= require("./modules/user/user.route")
+const path = require('path')
 
 const app = express();
 
@@ -35,6 +36,18 @@ app.use((req, res, next) => {
     message: 'No such API exist',
   });
 });
+
+// server static assets in  production
+
+if(process.env.NODE_ENV === "production") {
+  // set static folder
+  app.use(expres.staic('client/build'))
+
+  app.get('*',(req,res) => res.sendFile(path.resolve(__dirname,'client','build',
+  'index.html')));
+  
+
+}
 
 app.listen(PORT, (req, res) => {
 

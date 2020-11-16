@@ -7,7 +7,8 @@ const {
     addProduct,
     updateProduct,
     deleteProduct,
-    viewAllOrders
+    viewAllOrders,
+    deleteOrder
 } = require('./merchant.controller');
 
 /* create a merchant path: /api/merchant/addCategory*/
@@ -18,12 +19,14 @@ router.post("/updateCategory",updateCategory);
 router.post("/deleteCategory",deleteCategory);
 /* create a merchant path: /api/merchant/addCategory*/
 router.post("/addProduct",addProduct);
-/* create a merchant path: /api/merchant/updateCategory*/
+/* create a merchant path: /api/merchant/updateProduct*/
 router.post("/updateProduct",updateProduct);
 /* create a merchant path: /api/merchant/deleteCategory*/
 router.post("/deleteProduct",deleteProduct);
 /* create a merchant path: /api/merchant/viewAllOrders*/
 router.post("/viewAllOrders",viewAllOrders);
+/* create a merchant path: /api/merchant/deleteOrder*/
+router.post("/deleteOrder",deleteOrder);
 
 
 /**
