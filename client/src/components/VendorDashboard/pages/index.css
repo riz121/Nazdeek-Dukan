@@ -1,0 +1,224 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+.one{
+  background-color:rgba(255, 99, 132, 0.6);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.two{
+  background-color:rgba(54, 162, 235, 0.6);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.three{
+  background-color:rgba(255, 206, 86, 0.6);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.four{
+	background-color:rgba(4, 255, 242, 0.829);
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-size: 20px;
+  }
+
+.five{
+	background-color:rgba(37, 238, 121, 0.747);
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-size: 20px;
+  }
+
+.six{
+	background-color:rgba(97, 120, 223, 0.651);
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bolder;
+	font-size: 20px;
+  }
+
+
+.sticky-container{
+  height: 30%;
+  width: 100%;  
+  margin-bottom: 60px;
+}
+.card-title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+}
+
+
+
+/* .............Item Menu Item List Table............................. */
+.mt-100 {
+	margin-top: 100px
+}
+
+.container-fluid {
+	margin-top: 50px
+}
+
+body {
+	background-color: #f2f7fb
+}
+
+.card {
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 5px 0 rgba(43, 43, 43, 0.1), 0 11px 6px -7px rgba(43, 43, 43, 0.1);
+	box-shadow: 0 0 5px 0 rgba(43, 43, 43, 0.1), 0 11px 6px -7px rgba(43, 43, 43, 0.1);
+	border: none;
+	margin-bottom: 30px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out
+}
+
+.card .card-header {
+	background-color: transparent;
+	border-bottom: none;
+	padding: 20px;
+	position: relative
+}
+
+.card .card-block {
+	padding: 1.25rem
+}
+
+.table-responsive {
+	display: inline-block;
+	width: 100%;
+	overflow-x: auto
+}
+
+.card .card-block table tr {
+	padding-bottom: 20px
+}
+
+.table>thead>tr>th {
+	border-bottom-color: #ccc
+}
+
+.table th {
+	padding: 1.25rem 0.75rem
+}
+
+td,
+th {
+	white-space: nowrap
+}
+
+.tabledit-input:disabled {
+	display: none
+}
+
+.btn-primary,
+.sweet-alert button.confirm,
+.wizard>.actions a {
+	background-color: #4099ff;
+	border-color: #4099ff;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: all ease-in 0.3s;
+	transition: all ease-in 0.3s
+}
+
+.btn {
+	border-radius: 2px;
+	text-transform: capitalize;
+	font-size: 15px;
+	padding: 10px 19px;
+	cursor: pointer
+}
+.itmChkBox{
+	text-align: center;
+}
+
+.cardDesc{
+	border-top-color:black 2px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 14px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 15px;
+}
+
+.mainCategories{
+	display: inline-block;
+	padding: 12px;
+}
+.Modal-form{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	width: 500px;
+	height: 500px;
+	margin: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+}
+
+.dashboard-logo{
+	height: 120px;
+	width: 130px;
+	margin-right: 1px;
+	background-color: lightgrey;
+	border-radius: 100px;
+	text-align: center;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+
+}
+.naz-logo{
+	height: 110px;
+	width: 110px;
+}
+
+.G-Form-Container{
+	width: 50%;
+	font-size: 18px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	margin-left: 200px;
+	
+}
+
+
+
+.G-Form-Group label{
+	float: left;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.G-Form-Group input{
+	padding:8px;
+	display:block;
+	border:none;
+	border-bottom:1px solid #ccc;
+	width:100%;
+	padding-bottom: 15px;
+	font-size: 20px;
+}

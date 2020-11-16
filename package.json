@@ -1,0 +1,48 @@
+{
+  "name": "srs-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@syncfusion/ej2": "^18.2.48",
+    "@syncfusion/ej2-react-grids": "^18.2.48",
+    "ant-design-pro": "^2.3.2",
+    "antd": "^4.4.3",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "chart.js": "^2.9.3",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.5",
+    "express-validator": "^6.6.0",
+    "helmet": "^3.23.2",
+    "hooks": "^0.3.2",
+    "http-status": "^1.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "prop-types": "^15.7.2",
+    "react-awesome-modal": "^2.0.5",
+    "react-bootstrap": "^1.3.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-devtools": "^4.8.2",
+    "react-native": "^0.63.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.0.8"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "server": "nodemon ./src/index.js",
+    "dev": "concurrently \"npm run server\" \" npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client"
+  },
+  "author": "rizwan",
+  "license": "ISC"
+}
